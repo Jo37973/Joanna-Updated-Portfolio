@@ -1,0 +1,331 @@
+
+* {
+  box-sizing: border-box;
+}
+/* This tag creates the styling for the website (font, colors, margins, etc)  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(13, 86, 109); 
+  min-height: 100vh;
+  
+}
+
+/* The following classes are styling the main top header of the page, including the navigation links */
+
+.main-header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(17, 17, 17);
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav {
+  list-style: none;
+  display: inline;
+  justify-content: end;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav h3 {
+  color:white;
+  display:inline;
+}
+
+/* These classes are styling the image of Joanna in the top left Home section, and the introduction section in the top right Home section of the website. */
+
+.aboutMe {
+  display: flex;
+  justify-content: start;
+  flex-basis: 100%;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
+.caption {
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 60px 20px 10px;
+  font-style: bold;
+  font-size: 18px;
+  margin-right: 0;
+}
+
+img {
+  justify-content: left;
+  height: 350px;
+  width: 360px;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: rgb(17, 17, 17);
+}
+
+.about { 
+  flex-flow: wrap;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-direction: column;
+  padding: 0;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  background-color: #ddccb3;
+  color: black;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+/* These classes style the Projects section, including the images, links, and fonts that direct the viewer to the project pages. The #projects1 id styles the first Project image to emphasize this project, and make the image larger than the others. */
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.projects a {
+  color: black;
+  text-decoration: underline;
+}
+
+#projects1 {
+  height: 192px;
+  width: 340px;
+  padding-left: 20px;
+}
+
+.projects1 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  margin: 50px;
+  flex: 0 0 400px;
+  justify-content: center;
+  background-color: #ddccb3;;
+  color: black;
+}
+
+.projects img {
+  justify-content: center;
+  height: 135px;
+  width: 240px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.projects1a {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+
+.projects2 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 20px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  margin: 20px;
+  justify-content: space-around;
+  background-color: #ddccb3;;
+  color:black;
+}
+
+/* This tag styles the "main" section of the page, including the About Me and Resume section of the website*/
+
+main {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding: 20px;
+  background: rgb(13, 86, 109);
+  color: black;
+}
+
+/* These classes and the #pdf id style the About Me and Resume sections of the website and sets them up to the flex boxes so they are laid out next to each other on the page.*/
+
+.box2 {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.box2a {
+  flex: 1;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  background-color: #ddccb3;;
+  color: black;
+}
+
+.box2a h3 {
+  font-weight: bolder;
+}
+
+.box2 p {
+  margin: 50px;
+  font-size: 18px;
+}
+
+#pdf {
+  color:black;
+}
+
+/* These classes are styling the Contact section of the website, including the links with icons near the bottom of the page. */
+
+.box3 {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #ddccb3;
+  color: black;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  background-color: #ddccb3;;
+  color: black;
+}
+
+.box3title {
+  justify-content: center;
+}
+
+.box3 h3 {
+  color: black;
+}
+
+.getintouch {
+  list-style: none;
+  padding: 20px;
+  display: inline;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.getintouch li {
+  display: inline;
+  padding: 35px;
+}
+
+.getintouch a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
+
+.getintouch h4 {
+  color:black;
+  display:inline;
+}
+
+/* This media query will make the page mobile responsive when viewed on various devices. */
+
+@media screen and (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+  }
+
+  .nav li{
+    display: block;
+  }
+
+  .aboutMe {
+    padding-top: 350px;
+    flex-direction: column;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .projects1 {
+    flex-direction: column;
+  }
+
+  #projects1 {
+    flex-direction: column;
+    height: 92px;
+    width: 240px;
+  }
+
+  .projects1a {
+    flex-direction: column;
+  }
+
+  .projects2 {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+
+  .box2a {
+    flex-direction: column;
+  }
+
+  .box3 {
+    flex-direction: column;
+  }
+
+  .box3 li {
+    display: block;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
