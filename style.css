@@ -160,6 +160,10 @@ img {
   color:black;
 }
 
+#title {
+  font-weight: bold;
+}
+
 /* styling the About Me and Resume section of the website*/
 main {
   font-family: 'Quicksand', sans-serif;
@@ -177,6 +181,12 @@ main {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+#download {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: rgb(10, 10, 172);
 }
 
 /* Styling for the PDF icon, About me and Resume sections, including flex box styling..*/

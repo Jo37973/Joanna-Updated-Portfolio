@@ -12,9 +12,13 @@
 
 # Acceptance Criteria
 
-## This is the acceptance criteria followed: 
+* Updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-* 
+* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+
+* Updated resume
+
+* Updated LinkedIn profile
 
 
 # Links
@@ -33,6 +37,9 @@
 * Joanna Pastcan 2021
 
 * UCI Coding Bootcamp README: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+
 
 
 # UCI Coding Bootcamp Homework README

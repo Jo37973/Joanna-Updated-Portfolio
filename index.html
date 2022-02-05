@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <title>Joanna Pastcan's Portfolio</title>
   </head>
   <body>
@@ -34,28 +37,37 @@
         <p>An effective website is achieved with patience, determination, problem-solving, and creativity. These are fundamentals, and ones in which I embrace. As a full stack web developer, I will apply my knowledge and skills to provide functional and quality websites, while continuing to further my education and expertise in the field.</p>
       </div>
     </section>
-    <!--This is the Projects section that can be accessed from the header links, that will display clickable links (that will open in a new tab) and images to my other work and projects.The id="projects" makes the header link scroll to this section-->
-    <div class= "projects" id="projects">
-      <section class="projects1">
-        <a href="https://jo37973.github.io/Joanna-Pastcans-Portfolio/" target="_blank"><img src="./Assets/Field.jpg" id = "projects1" alt="Portfolio Link"><h3>Portfolio</h3></a></li>
-        <p>This is my Portfolio page that displays my projects and provides information about myself as a full stack web developer.</p>
-      </section>
-      <div class="projects1a">
+    <!--Projects section that displays some of the repositories and projects from GitHub with an iamge, brief description, and a link.-->
+      <div class="projects">
         <section class="projects2">
-          <a href="https://jo37973.github.io/prework-about-me/" target="_blank"><img src="./About-Me.jpg" alt="Precourse Link"><h3>Introduction</h3></a></li>
-          <p>This was a Coding Bootcamp assignment to create a static HTML website using HTML and some CSS to create an "About Me" page.</p>
+          <a href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank"><img src="./About-Me.jpg" alt="Earthquake Montior Link"><h3 id="title">Earthquake Monitor</h3></a></li>
+          <!--ADD THE IMAGE OF THE GROUP PROJECT ABOVE and deployed link-->
+          <p> California Earthquake data for recent Earthquakes in California and for searched zip codes within California. The earthquakes are also displayed in order of magnitude severity, with lives maps and a feed to the USGS Facebook page.</p>
+          <a href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank" alt="Earthquake Monitor Repository Link"><h5 id="title">Repository Link</h5></a></li>
         </section>
         <section class="projects2">
-          <a href="https://jo37973.github.io/MiniProject1/" target="_blank"><img src="./Mini-Project.jpg" alt="Mini Project Link"><h3>Mini Project</h3></a></li>
-          <p>This Mini Project was to create a page with semantic HTML elements and CSS class selectors, while applying knowldge adn skills learned in Coding Class to fulfill the project requirements.</p>
+          <a href="https://jo37973.github.io/Weather-Dashboard/" target="_blank"><img src="./Assets/Weather-dashboard.png" alt="Weather Dashboard Link"><h3 id="title">Weather Dasboard</h3></a></li>
+          <p>Weather Dashboard app allows users to search for a city and view the current and future weather conditions for that city. The app also displays the temperature, humidity, wind speed, and the UV index of the city.</p>
+          <a href="https://github.com/Jo37973/Weather-Dashboard" target="_blank" alt="Weather Dashboard Repository Link"><h5 id="title">Repository Link</h5></a></li>
         </section>
         <section class="projects2">
-          <a href="https://jo37973.github.io/Horiseon-Homework/" target="_blank"><img src="./Horiseon-Homework.jpg" alt="Homework Example"><h3>Horiseon Homework</h3></a></li>
-          <p>This homework assignment was to optimize this website, provide logical structure and accessible attributes, and have a functional website to demonstrate the skills learned in Coding Class.</p>
+          <a href="https://jo37973.github.io/Daily-Planner/" target="_blank"><img src="./Assets/Work-Day-Scheduler.png" alt="Daily Planner Link"><h3 id="title">Daily Planner</h3></a></li>
+          <p>Work Day Scheduler allows a user to input information in the time-block text area for 8am-4pm, and save that to be used for the day.</p>
+          <a href="https://github.com/Jo37973/Daily-Planner" target="_blank" alt="Daily Planner Repository Link"><h5 id="title">Repository Link</h5></a></li>
+        </section>
+        <section class="projects2">
+          <a href="https://jo37973.github.io/Coding-Quiz/" target="_blank"><img src="./Assets/Coding-Quiz.png" alt="Timed Coding Quiz Link"><h3 id="title">Coding Quiz</h3></a></li>
+          <p>Timed Coding Quiz</p>
+          <a href="https://github.com/Jo37973/Coding-Quiz" target="_blank" alt="Coding Quiz Repository Link"><h5 id="title">Repository Link</h5></a></li>
+        </section>
+        <section class="projects2">
+          <a href="https://jo37973.github.io/Password-Generator/" target="_blank"><img src="./Assets/Password-Generator.png" alt="Password Generator Link"><h3 id="title">Password Generator</h3></a></li>
+          <p>An app that can create random passwords, from given criteria the user has chosen (ex: between 8 - 128 characters using various numbers, uppercase or lowercase letters, or special characters.).</p>
+          <a href="https://github.com/Jo37973/Password-Generator" target="_blank" alt="Password Generator Repository Link"><h5 id="title">Repository Link</h5></a></li>
         </section>
       </div>
     </div>
-    <!--This is the About Me section, from the header link that scrolls down to this section. This will describe who I am, my background, and my goals as a Full Stack Web Developer. The id="About Me", and "Resume" makes the header link scroll to these sections.---> 
+    <!--About Me section-->
     <main>
       <section class="box2">
         <div class="box2a" id="aboutme"><h3>About Me</h3>
@@ -64,11 +76,13 @@
           <p>I am highly driven to learn the skills needed, and to continue to further my education, to become  and attain a job as a full stack web developer. I love a challenge and enjoy learning new things. I am quick to learn, and pour my heart into everyting I do. look forward to working on and creating websites for future clients and/or employers.</p>
         </div>
   
-        <!--This is the Resume section, from the header link that scrolls down to this section. This will display my current resume-->
+        <!--Resume section that has a viewable and downloadable resume-->
         <div class="box2a" id= "resume"><h3>Resume</h3>
           <br><br><br><br><br><br>
-          <a href="./Assets/Joanna Pastcan Resume.pdf" target="_blank"><span class="iconify-inline" id ="pdf"  data-icon="ci:file-pdf" data-width="100" style="margin-left: 5px; vertical-align: -0.10em;"></span></a>
-          <p>Joanna's Resume</p>
+          <a href="./Assets/Joanna Pastcan Resume 2022.pdf" target="_blank"><span class="iconify-inline" id ="pdf"  data-icon="ci:file-pdf" data-width="100" style="margin-left: 5px; vertical-align: -0.10em;"></span></a>
+          <p id="joResume">Joanna's Resume</p>
+          <p>Click the icon to view</p>
+          <a id="download" href="./Assets/Joanna Pastcan Resume 2022.zip">Click to Download</a>
         </div>
       </section>
     </main>
