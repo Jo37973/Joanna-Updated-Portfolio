@@ -19,18 +19,19 @@
       <h1>Joanna Pastcan</h1>
       <ul class="nav">
         <li><a href="#"><h3>Home</h3></a></li>
-        <li><a href="#projects"><h3>Projects</h3></a></li>
+        <li><a href="#project"><h3>Projects</h3></a></li>
         <li><a href="#aboutme"><h3>About Me</h3></a></li>
         <li><a href="#resume"><h3>Resume</h3></a></li>
         <li><a href="#contact"><h3>Contact</h3></a></li>
       </ul>
     </header>
-<!--This is the image of Joanna in the top left Home section of the website-->
+ <main>  
+    <!--This is the image of Joanna in the top left Home section of the website-->
     <section class="aboutMe">
      <div class="caption">
         <img src="./Assets/Joanna-pic.jpg" alt="A picture of Joanna">
       </div>
-<!--This is the introduction section in the top right Home section of the website-->
+      <!--This is the introduction section in the top right Home section of the website-->
       <div class="about">
         <h2>Full Stack Web Developer</h2>
         <br>
@@ -39,38 +40,41 @@
         <p>An effective website is achieved with patience, determination, problem-solving, and creativity. These are fundamentals, and ones in which I embrace. As a full stack web developer, I will apply my knowledge and skills to provide functional and quality websites, while continuing to further my education and expertise in the field.</p>
       </div>
     </section>
-    <!--Projects section that displays some of the repositories and projects from GitHub with an iamge, brief description, and a link.-->
-      <div class="projects">
-        <section class="projects2">
-          <a href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank"><img src="./About-Me.jpg" alt="Earthquake Montior Link"><h3>Earthquake Monitor</h3></a></li>
+      <!--Projects section that displays some of the repositories and projects from GitHub with an image, brief description, and a link.-->
+      <div id="project" class="card-carousel">
+        <div class="my-card">
+          <a href="https://jo37973.github.io/Coding-Quiz/" target="_blank"><img src="./Assets/Coding-Quiz.png" alt="Timed Coding Quiz Link"><h3>Coding Quiz</h3></a>
+          <p>Timed Coding Quiz</p>
+          <a id="title" href="https://github.com/Jo37973/Coding-Quiz" target="_blank" alt="Coding Quiz Repository Link"><h5 id="title">Repository Link</h5></a>
+        </div>
+ 
+        <div class="my-card">
+          <a href="https://jo37973.github.io/Daily-Planner/" target="_blank"><img src="./Assets/Work-Day-Scheduler.png" alt="Daily Planner Link"><h3>Daily Planner</h3></a>
+          <p>Work Day Scheduler allows a user to input information in the time-block text area for 8am-4pm, and save that to be used for the day.</p>
+          <a id="title" href="https://github.com/Jo37973/Daily-Planner" target="_blank" alt="Daily Planner Repository Link"><h5 id="title">Repository Link</h5></a>
+        </div>     
+
+        <div class="my-card">
+          <a href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank"><img src="./About-Me.jpg" alt="Earthquake Montior Link"><h3>Earthquake Monitor</h3></a>
           <!--ADD THE IMAGE OF THE GROUP PROJECT ABOVE and deployed link-->
           <p> California Earthquake data for recent Earthquakes in California and for searched zip codes within California. The earthquakes are also displayed in order of magnitude severity, with lives maps and a feed to the USGS Facebook page.</p>
-          <a id="title" href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank" alt="Earthquake Monitor Repository Link"><h5>Repository Link</h5></a></li>
-        </section>
-        <section class="projects2">
-          <a href="https://jo37973.github.io/Weather-Dashboard/" target="_blank"><img src="./Assets/Weather-dashboard.png" alt="Weather Dashboard Link"><h3>Weather Dasboard</h3></a></li>
+          <a id="title" href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank" alt="Earthquake Monitor Repository Link"><h5>Repository Link</h5></a>
+        </div>
+      
+        <div class="my-card">
+          <a href="https://jo37973.github.io/Weather-Dashboard/" target="_blank"><img src="./Assets/Weather-dashboard.png" alt="Weather Dashboard Link"><h3>Weather Dasboard</h3></a>
           <p>Weather Dashboard app allows users to search for a city and view the current and future weather conditions for that city. The app also displays the temperature, humidity, wind speed, and the UV index of the city.</p>
-          <a id="title" href="https://github.com/Jo37973/Weather-Dashboard" target="_blank" alt="Weather Dashboard Repository Link"><h5 id="title">Repository Link</h5></a></li>
-        </section>
-        <section class="projects2">
-          <a href="https://jo37973.github.io/Daily-Planner/" target="_blank"><img src="./Assets/Work-Day-Scheduler.png" alt="Daily Planner Link"><h3>Daily Planner</h3></a></li>
-          <p>Work Day Scheduler allows a user to input information in the time-block text area for 8am-4pm, and save that to be used for the day.</p>
-          <a id="title" href="https://github.com/Jo37973/Daily-Planner" target="_blank" alt="Daily Planner Repository Link"><h5 id="title">Repository Link</h5></a></li>
-        </section>
-        <section class="projects2">
-          <a href="https://jo37973.github.io/Coding-Quiz/" target="_blank"><img src="./Assets/Coding-Quiz.png" alt="Timed Coding Quiz Link"><h3>Coding Quiz</h3></a></li>
-          <p>Timed Coding Quiz</p>
-          <a id="title" href="https://github.com/Jo37973/Coding-Quiz" target="_blank" alt="Coding Quiz Repository Link"><h5 id="title">Repository Link</h5></a></li>
-        </section>
-        <section class="projects2">
-          <a href="https://jo37973.github.io/Password-Generator/" target="_blank"><img src="./Assets/Password-Generator.png" alt="Password Generator Link"><h3>Password Generator</h3></a></li>
+          <a id="title" href="https://github.com/Jo37973/Weather-Dashboard" target="_blank" alt="Weather Dashboard Repository Link"><h5 id="title">Repository Link</h5></a>
+        </div>
+        
+        <div class="my-card">
+          <a href="https://jo37973.github.io/Password-Generator/" target="_blank"><img src="./Assets/Password-Generator.png" alt="Password Generator Link"><h3>Password Generator</h3></a>
           <p>An app that can create random passwords, from given criteria the user has chosen (ex: between 8 - 128 characters using various numbers, uppercase or lowercase letters, or special characters.).</p>
-          <a id="title" href="https://github.com/Jo37973/Password-Generator" target="_blank" alt="Password Generator Repository Link"><h5 id="title">Repository Link</h5></a></li>
-        </section>
-      </div>
-    </div>
-    <!--About Me section-->
-    <main>
+          <a id="title" href="https://github.com/Jo37973/Password-Generator" target="_blank" alt="Password Generator Repository Link"><h5 id="title">Repository Link</h5></a>
+        </div>
+        </div>
+      
+      <!--About Me section-->
       <section class="box2">
         <div class="box2a" id="aboutme"><h3>About Me</h3>
           <p>I am currently attending UC Irvine to become a full stack web developer. I graduated from Sonoma State University in 2009 with a B.A. in Liberal Arts and a Preliminary Multiple Subject Teaching Credential. Various skills and knowldge from positions over the years can be applied in the field of web development. Organization and creativity are applied greatly, which I have experience with from being a photographer, a substitute teacher, and working in customer service and administrative office positions.  </p>
@@ -87,18 +91,19 @@
           <a id="download" href="./Assets/Joanna Pastcan Resume 2022.zip">Click to Download</a>
         </div>
       </section>
-    </main>
       <!--This is my contact section, from the header link that scrolls down to this section. This will display various ways to contact me with icons and links (the links will open in a new tab). The id="contact" makes the header link scroll to this section--->
       <section class="box3" id="contact">
-           <!--Animated star-->
-           <div id="div1" class="fa"></div>
-        <div class="box3title"><h3>Contact</h3></div>
-        <ul class="getintouch">
-          <li><a href="https://www.linkedin.com/in/jo37973/" target="_blank"><span class="iconify-inline" data-icon="ri:linkedin-box-fill" data-width="32" style="margin-right: 5px; vertical-align: -0.40em;"></span><h4>LinkedIn</h4></a></li>
-          <li><a href="https://www.github.com/jo37973" target="_blank"><span class="iconify-inline" data-icon="bi:github" style="color: black; margin-right: 10px; vertical-align: -0.15em;" data-width="32"></span><h4>GitHub</h4></a></li>
-          <li><a href="mailto:timelessmoment05@gmail.com" target="_blank"><span class="iconify-inline" data-icon="clarity:email-solid" data-width="32" style="margin-right: 5px; vertical-align: -0.40em;"></span><h4>E-mail</h4></a></li>
-        </ul>
-      </section>
+        <!--Animated star-->
+        <div id="div1" class="fa"></div>
+      <div class="box3title"><h3>Contact</h3></div>
+      <ul class="getintouch">
+       <li><a href="https://www.linkedin.com/in/jo37973/" target="_blank"><span class="iconify-inline" data-icon="ri:linkedin-box-fill" data-width="32" style="margin-right: 5px; vertical-align: -0.40em;"></span><h4>LinkedIn</h4></a></li>
+       <li><a href="https://www.github.com/jo37973" target="_blank"><span class="iconify-inline" data-icon="bi:github" style="color: black; margin-right: 10px; vertical-align: -0.15em;" data-width="32"></span><h4>GitHub</h4></a></li>
+       <li><a href="mailto:timelessmoment05@gmail.com" target="_blank"><span class="iconify-inline" data-icon="clarity:email-solid" data-width="32" style="margin-right: 5px; vertical-align: -0.40em;"></span><h4>E-mail</h4></a></li>
+      </ul>
+   </section>
+  </main>
+      
       
       <!--Script links-->
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>

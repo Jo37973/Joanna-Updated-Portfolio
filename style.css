@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 /* Body styling for the page*/
 body {
   font-family: 'Quicksand', sans-serif;
@@ -23,6 +24,7 @@ body {
   color: #fff;
   padding-right: 20px;
   padding-left: 20px;
+  z-index: 1000;
 }
 
 .nav {
@@ -57,6 +59,8 @@ body {
   flex-basis: 100%;
   padding-right: 20px;
   padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: rgb(13, 86, 109);
 }
 
 .caption {
@@ -99,6 +103,120 @@ img {
   font-size: 18px;
 }
 
+/* Project Carousel Styling */
+.card-carousel {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    background-color: rgb(13, 86, 109);
+  }
+  
+  .card-carousel .my-card {
+    height:40rem;
+    width:30rem;
+    text-align: center;
+    position:relative;
+    padding-top: 10px;
+    z-index:1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity:0;
+    cursor:pointer;
+    pointer-events:none;
+    background:#ddccb3;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(37, 36, 36);
+    transition:1s;
+  }
+
+  .card-carousel .my-card:after {
+    content:'';
+    position:absolute;
+    height:2px;
+    width:100%;
+    border-radius:100%;
+    background-color: rgba(0,0,0,0.3);
+    bottom:-5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+ 
+  .card-carousel .my-card.active {
+    z-index:3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity:1;
+    pointer-events:auto;
+    transition:1s;
+  }
+ 
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index:2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity:0.6;
+    pointer-events:auto;
+    transition:1s;
+  }
+
+  .card-carousel .my-card:nth-child(0):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
+    }
+  
+    .card-carousel .my-card:nth-child(1):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
+    }
+    
+    .card-carousel .my-card:nth-child(2):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
+    }
+    
+    .card-carousel .my-card:nth-child(3):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
+    }
+   
+    .card-carousel .my-card:nth-child(4):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
+
+    }
+    
+  
 /* Projects section styling, including the images, links, and fonts. */
 .projects {
   font-family: 'Quicksand', sans-serif;
@@ -132,7 +250,7 @@ img {
   box-shadow: 10px 10px 5px rgb(17, 17, 17);
   margin: 20px;
   justify-content: space-around;
-  background-color: #ddccb3;;
+  background-color: #ddccb3;
   color:black;
 }
 
@@ -151,7 +269,6 @@ main {
   flex-flow: wrap;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 2%;
   padding: 20px;
   background: rgb(13, 86, 109);
   color: black;
@@ -175,6 +292,7 @@ main {
   padding: 5px;
   text-align: center;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .box2a {
@@ -190,7 +308,7 @@ main {
   border-width: 1px;
   border-radius: 15px;
   box-shadow: 10px 10px 5px rgb(17, 17, 17);
-  background-color: #ddccb3;;
+  background-color: #ddccb3;
   color: black;
 }
 
@@ -215,6 +333,7 @@ main {
   justify-content: space-around;
   background: #ddccb3;
   color: black;
+  margin-top: 1.5rem;
   margin-right: 30px;
   margin-left: 30px;
   text-align: center;
@@ -222,8 +341,9 @@ main {
   border-width: 1px;
   border-radius: 15px;
   box-shadow: 10px 10px 5px rgb(17, 17, 17);
-  background-color: #ddccb3;;
+  background-color: #ddccb3;
   color: black;
+  
 }
 
 .box3title {
