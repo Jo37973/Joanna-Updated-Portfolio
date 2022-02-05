@@ -24,7 +24,7 @@
 # Links
 * GitHub Repository: https://github.com/Jo37973/Joanna-Updated-Portfolio
 
-* Website:
+* Deployed Website: https://jo37973.github.io/Joanna-Updated-Portfolio/
 
 * Images: 
 * 
