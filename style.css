@@ -1,20 +1,18 @@
-
 * {
   box-sizing: border-box;
 }
-/* This tag creates the styling for the website (font, colors, margins, etc)  */
-
+/* Body styling for the page*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   background-color: rgb(13, 86, 109); 
-  min-height: 100vh;
-  
+  min-height: 100vh; 
 }
 
-/* The following classes are styling the main top header of the page, including the navigation links */
-
+/* Header and navigation styling */
 .main-header {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
   width: 100%;
   position: fixed;
   display: flex;
@@ -28,6 +26,7 @@ body {
 }
 
 .nav {
+  font-family: 'Quicksand', sans-serif;
   list-style: none;
   display: inline;
   justify-content: end;
@@ -50,9 +49,9 @@ body {
   display:inline;
 }
 
-/* These classes are styling the image of Joanna in the top left Home section, and the introduction section in the top right Home section of the website. */
-
+/* Image styling of Joanna and the introduction section, */
 .aboutMe {
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   justify-content: start;
   flex-basis: 100%;
@@ -63,7 +62,7 @@ body {
 .caption {
   justify-content: center;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   padding: 30px 60px 20px 10px;
   font-style: bold;
   font-size: 18px;
@@ -82,12 +81,12 @@ img {
 .about { 
   flex-flow: wrap;
   justify-content: left;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   flex-direction: column;
   padding: 0;
   margin-right: 50px;
-  margin-top: 10px;
+  margin-top: 37px;
   border-style: solid;
   border-width: 1px;
   border-radius: 15px;
@@ -100,9 +99,9 @@ img {
   font-size: 18px;
 }
 
-/* These classes style the Projects section, including the images, links, and fonts that direct the viewer to the project pages. The #projects1 id styles the first Project image to emphasize this project, and make the image larger than the others. */
-
+/* Projects section styling, including the images, links, and fonts. */
 .projects {
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
@@ -161,9 +160,9 @@ img {
   color:black;
 }
 
-/* This tag styles the "main" section of the page, including the About Me and Resume section of the website*/
-
+/* styling the About Me and Resume section of the website*/
 main {
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-flow: wrap;
   flex-direction: column;
@@ -174,8 +173,13 @@ main {
   color: black;
 }
 
-/* These classes and the #pdf id style the About Me and Resume sections of the website and sets them up to the flex boxes so they are laid out next to each other on the page.*/
+#joResume {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+/* Styling for the PDF icon, About me and Resume sections, including flex box styling..*/
 .box2 {
   display: flex;
   padding: 5px;
@@ -213,8 +217,7 @@ main {
   color:black;
 }
 
-/* These classes are styling the Contact section of the website, including the links with icons near the bottom of the page. */
-
+/*  Contact section, including the links with icons at the bottom of the page */
 .box3 {
   display: flex;
   flex-flow: wrap;
@@ -242,6 +245,8 @@ main {
 }
 
 .getintouch {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
   list-style: none;
   padding: 20px;
   display: inline;
