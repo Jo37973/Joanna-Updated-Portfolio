@@ -213,7 +213,17 @@ img {
       font-size:3rem;
       font-weight:300;
       color:#fff;
+    }
 
+    .card-carousel .my-card:nth-child(5):before {
+      position:absolute;
+      top:50%;
+      left:50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size:3rem;
+      font-weight:300;
+      color:#fff;
     }
     
   
