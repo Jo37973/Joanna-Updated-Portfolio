@@ -19,7 +19,7 @@ body {
   flex-flow: wrap;
   flex-direction: row;
   justify-content: space-between;
-  background: rgb(17, 17, 17);
+  background: rgb(26, 25, 25);
   color: #fff;
   padding-right: 20px;
   padding-left: 20px;
@@ -45,7 +45,7 @@ body {
 }
 
 .nav h3 {
-  color:white;
+  color: white;
   display:inline;
 }
 
@@ -115,36 +115,12 @@ img {
   text-decoration: underline;
 }
 
-#projects1 {
-  height: 192px;
-  width: 340px;
-  padding-left: 20px;
-}
-
-.projects1 {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 30px;
-  padding: 10px;
-  box-shadow: 10px 10px 5px rgb(17, 17, 17);
-  margin: 50px;
-  flex: 0 0 400px;
-  justify-content: center;
-  background-color: #ddccb3;;
-  color: black;
-}
-
 .projects img {
   justify-content: center;
   height: 135px;
   width: 240px;
   border-radius: 15px;
   padding: 5px;
-}
-.projects1a {
-  display: flex;
-  padding: 10px;
-  margin: 20px;
 }
 
 .projects2 {
@@ -165,6 +141,7 @@ img {
   font-size: 14px;
   text-decoration: none;
   color: rgb(12, 12, 158);
+  text-align: bottom;
 }
 
 /* styling the About Me and Resume section of the website*/
@@ -285,6 +262,10 @@ main {
   display:inline;
 }
 
+.fa {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* This media query will make the page mobile responsive when viewed on various devices. */
 
 @media screen and (max-width: 768px) {
@@ -302,20 +283,6 @@ main {
   }
 
   .projects {
-    flex-direction: column;
-  }
-
-  .projects1 {
-    flex-direction: column;
-  }
-
-  #projects1 {
-    flex-direction: column;
-    height: 92px;
-    width: 240px;
-  }
-
-  .projects1a {
     flex-direction: column;
   }
 
