@@ -162,6 +162,9 @@ img {
 
 #title {
   font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(12, 12, 158);
 }
 
 /* styling the About Me and Resume section of the website*/
