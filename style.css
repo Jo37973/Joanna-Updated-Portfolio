@@ -322,6 +322,23 @@ main {
   color: black;
 }
 
+.box2b {
+  flex: 1;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px rgb(17, 17, 17);
+  background-color: #ddccb3;
+  color: black;
+}
+
 .box2a h3 {
   font-weight: bolder;
 }
