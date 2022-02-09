@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Joanna Pastcan's Portfolio</title>
   </head>
   <body>
@@ -40,44 +40,84 @@
         <p>An effective website is achieved with patience, determination, problem-solving, and creativity. These are fundamentals, and ones in which I embrace. As a full stack web developer, I will apply my knowledge and skills to provide functional and quality websites, while continuing to further my education and expertise in the field.</p>
       </div>
     </section>
-      <!--Projects section that displays some of the repositories and projects from GitHub with an image, brief description, and a link.-->
-      <div id="project" class="card-carousel">
-        <div class="my-card">
-          <a href="https://jo37973.github.io/Coding-Quiz/" target="_blank"><img src="./Assets/Coding-Quiz.png" alt="Timed Coding Quiz Link"><h3>Coding Quiz</h3></a>
-          <p>Timed Coding Quiz</p>
-          <a id="title" href="https://github.com/Jo37973/Coding-Quiz" target="_blank" alt="Coding Quiz Repository Link"><h5 id="title">Repository Link</h5></a>
-        </div>
- 
-        <div class="my-card">
-          <a href="https://jo37973.github.io/Daily-Planner/" target="_blank"><img src="./Assets/Work-Day-Scheduler.png" alt="Daily Planner Link"><h3>Daily Planner</h3></a>
-          <p>Work Day Scheduler allows a user to input information in the time-block text area for 8am-4pm, and save that to be used for the day.</p>
-          <a id="title" href="https://github.com/Jo37973/Daily-Planner" target="_blank" alt="Daily Planner Repository Link"><h5 id="title">Repository Link</h5></a>
-        </div>     
 
-        <div class="my-card">
-          <img src="./Assets/Field.jpg" alt="Projects Carousel"><h3>Projects</h3><br>
-          <p>Scroll left and right to see the featured projects and repositories</p>
-        </div> 
+<!-- Projects Section-->
 
-        <div class="my-card">
-          <a href="https://bit.ly/earthquake-monitor-2022" target="_blank"><img src="./Assets/Earthquake.png" alt="Earthquake Montior Link"><h3>Earthquake Monitor</h3></a> 
-          <!--ADD THE IMAGE OF THE GROUP PROJECT ABOVE and deployed link-->
-          <p> California Earthquake data for recent Earthquakes in California and for searched zip codes within California. The earthquakes are also displayed in order of magnitude severity, with lives maps and a feed to the USGS Facebook page.</p>
-          <a id="title" href="https://github.com/mrjeoffrey/earthquake-monitor" target="_blank" alt="Earthquake Monitor Repository Link"><h5>Repository Link</h5></a>
-        </div>
-      
-        <div class="my-card">
-          <a href="https://jo37973.github.io/Weather-Dashboard/" target="_blank"><img src="./Assets/Weather-dashboard.png" alt="Weather Dashboard Link"><h3>Weather Dasboard</h3></a>
-          <p>Weather Dashboard app allows users to search for a city and view the current and future weather conditions for that city. The app also displays the temperature, humidity, wind speed, and the UV index of the city.</p>
-          <a id="title" href="https://github.com/Jo37973/Weather-Dashboard" target="_blank" alt="Weather Dashboard Repository Link"><h5 id="title">Repository Link</h5></a>
-        </div>
-        
-        <div class="my-card">
-          <a href="https://jo37973.github.io/Password-Generator/" target="_blank"><img src="./Assets/Password-Generator.png" alt="Password Generator Link"><h3>Password Generator</h3></a>
-          <p>An app that can create random passwords, from given criteria the user has chosen (ex: between 8 - 128 characters using various numbers, uppercase or lowercase letters, or special characters.).</p>
-          <a id="title" href="https://github.com/Jo37973/Password-Generator" target="_blank" alt="Password Generator Repository Link"><h5 id="title">Repository Link</h5></a>
-        </div>
+    <div class="main-carousel">
+      <div class="carousel-cell">
+        <img src="./Assets/Earthquake.png" width="100%" href="https://mrjeoffrey.github.io/earthquake-monitor/" target="newtab">
+        <h3>Earthquke Watch</h3>
+        <p>
+          California Earthquake data for recent Earthquakes in California and for searched zip codes
+          within California. The earthquakes are also displayed in order of magnitude severity, 
+          with lives maps and a feed to the USGS Facebook page.
+        </p>
+        <a class="btn" href="https://github.com/mrjeoffrey/earthquake-monitor" target="newtab">Visit Repository</a>
       </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Weather-dashboard.png" width="100%" href="https://jo37973.github.io/Weather-Dashboard/" target="newtab">
+        <h3>Weather Dashboard</h3>
+        <p>
+          Weather Dashboard app allows users to search for a city and view the current and future weather conditions for that city. The app also displays the temperature, humidity, wind speed, and the UV index of the city.
+        </p>
+        <a class="btn" href="https://github.com/Jo37973/Weather-Dashboard" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Coding-Quiz.png" width="100%" href="https://jo37973.github.io/Coding-Quiz/" target="newtab">
+        <h3>Coding Quiz</h3>
+        <p>
+          Timed Coding Quiz
+        </p>
+        <a class="btn" href="https://github.com/Jo37973/Coding-Quiz" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Work-Day-Scheduler.png" width="100%" href="https://jo37973.github.io/Daily-Planner/" target="newtab">
+        <h3>Work Day Scheduler</h3>
+        <p>
+          Work Day Scheduler allows a user to input information in the time-block text area for 8am-4pm, and save that to be used for the day.
+        </p>
+        <a class="btn" href="https://github.com/Jo37973/Daily-Planner" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Password-Generator.png" width="100%" href="https://jo37973.github.io/Password-Generator/" target="newtab">
+        <h3>Password Generator</h3>
+        <p>
+          An app that can create random passwords, from given criteria the user has chosen (ex: between 8 - 128 characters using various numbers, uppercase or lowercase letters, or special characters.).
+        </p>
+        <a class="btn" href="https://github.com/Jo37973/Password-Generator" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Earthquake.png" width="100%" href="https://mrjeoffrey.github.io/earthquake-monitor/" target="newtab">
+        <h3>Earthquke Watch</h3>
+        <p>
+          California Earthquake data for recent Earthquakes in California and for searched zip codes
+          within California. The earthquakes are also displayed in order of magnitude severity, 
+          with lives maps and a feed to the USGS Facebook page.
+        </p>
+        <a class="btn" href="https://github.com/mrjeoffrey/earthquake-monitor" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Earthquake.png" width="100%" href="https://mrjeoffrey.github.io/earthquake-monitor/" target="newtab">
+        <h3>Earthquke Watch</h3>
+        <p>
+            California Earthquake data for recent Earthquakes in California and for searched zip codes
+            within California. The earthquakes are also displayed in order of magnitude severity, 
+            with lives maps and a feed to the USGS Facebook page.
+        </p>
+        <a class="btn" href="https://github.com/mrjeoffrey/earthquake-monitor" target="newtab">Visit Repository</a>
+      </div>
+      <div class="carousel-cell">
+        <img src="./Assets/Earthquake.png" width="100%" href="https://mrjeoffrey.github.io/earthquake-monitor/" target="newtab">
+        <h3>Earthquke Watch</h3>
+        <p>
+            California Earthquake data for recent Earthquakes in California and for searched zip codes
+            within California. The earthquakes are also displayed in order of magnitude severity, 
+            with lives maps and a feed to the USGS Facebook page.
+        </p>
+        <a class="btn" href="https://github.com/mrjeoffrey/earthquake-monitor" target="newtab">Visit Repository</a>
+      </div>
+    </div>
+  </div>
       
       <!--About Me section-->
       <section class="box2">
@@ -120,8 +160,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/utc.min.js" integrity="sha512-m00bfmYnAl3plEBlQfeQUhw/U2uvmw29V2+jxSWpAjankMWS+zAsjezbKWDEJNXqWq9o9qQZSOiA2RKDpa4D5w==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/timezone.min.js" integrity="sha512-pslqxxHAYPCxaSeFSmXXxDkLejD5dbFVC66aiVq0z4v7VTJBU+wqcG1OpNh4p3MjS2D6NCwz/H2QmSc7dXxryg==" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
       <script src="./script.js"></script>
   </body>
 
 </html>
-
