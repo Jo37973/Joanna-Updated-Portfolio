@@ -36,7 +36,7 @@
 # Credits
 * Joanna Pastcan 2021
 
-* Smooth-Card-Carousel code by Collin Smith. (https://www.jqueryscript.net/slider/Smooth-Card-Carousel-jQuery-CSS3.html?fbclid=IwAR2Wfng0XVuS6fZceXj5rUCj2bFuifsMghmKv0fAU3LuCIec-ClHqzlYBGc)
+* Carousel: https://flickity.metafizzy.co/
 
 * UCI Coding Bootcamp README: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
