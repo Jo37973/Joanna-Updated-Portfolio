@@ -27,8 +27,17 @@
 * Deployed Website: https://jo37973.github.io/Joanna-Updated-Portfolio/
 
 * Images: 
+* ![updated1](https://user-images.githubusercontent.com/92402053/153722377-af028be5-90a2-465d-a206-cfaf42fc6520.png)
+
+* ![updated2](https://user-images.githubusercontent.com/92402053/153722384-b6342f7a-e7ba-4982-9733-ddf3d13b046b.png)
+
+* ![updated3](https://user-images.githubusercontent.com/92402053/153722389-521e2d51-edac-44cb-bab3-bf814fda6f97.png)
 * 
+* ![updated4](https://user-images.githubusercontent.com/92402053/153722393-caa85f67-f1c4-4587-a4ba-192d8d00e291.png)
 * 
+* ![updated5](https://user-images.githubusercontent.com/92402053/153722397-c846e668-be44-4ab3-aae6-5a5d923cf25e.png)
+
+
 
 # Usage 
 * This site and code will be used as my Portfolio page to show potential employers when applying for and attaining a position as a web developer.
